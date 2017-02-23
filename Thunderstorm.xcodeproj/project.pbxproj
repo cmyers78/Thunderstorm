@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6D123E11E5F14CA003C98EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123E01E5F14CA003C98EA /* AppDelegate.swift */; };
+		C6D123E31E5F14CA003C98EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123E21E5F14CA003C98EA /* ViewController.swift */; };
+		C6D123E81E5F14CA003C98EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D123E71E5F14CA003C98EA /* Assets.xcassets */; };
+		C6D123F61E5F14CA003C98EA /* ThunderstormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123F51E5F14CA003C98EA /* ThunderstormTests.swift */; };
+		C6D124071E5F1C00003C98EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D124061E5F1C00003C98EA /* Main.storyboard */; };
+		C6D124091E5F1C28003C98EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D124081E5F1C28003C98EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6D123F21E5F14CA003C98EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D123D51E5F14C9003C98EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D123DC1E5F14C9003C98EA;
+			remoteInfo = Thunderstorm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6D123DD1E5F14CA003C98EA /* Thunderstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D123E01E5F14CA003C98EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6D123E21E5F14CA003C98EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6D123E71E5F14CA003C98EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6D123EC1E5F14CA003C98EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D123F11E5F14CA003C98EA /* ThunderstormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThunderstormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D123F51E5F14CA003C98EA /* ThunderstormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormTests.swift; sourceTree = "<group>"; };
+		C6D123F71E5F14CA003C98EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D124061E5F1C00003C98EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C6D124081E5F1C28003C98EA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6D123DA1E5F14C9003C98EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D123EE1E5F14CA003C98EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6D123D41E5F14C9003C98EA = {
+			isa = PBXGroup;
+			children = (
+				C6D123DF1E5F14CA003C98EA /* Thunderstorm */,
+				C6D123F41E5F14CA003C98EA /* ThunderstormTests */,
+				C6D123DE1E5F14CA003C98EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6D123DE1E5F14CA003C98EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6D123DD1E5F14CA003C98EA /* Thunderstorm.app */,
+				C6D123F11E5F14CA003C98EA /* ThunderstormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6D123DF1E5F14CA003C98EA /* Thunderstorm */ = {
+			isa = PBXGroup;
+			children = (
+				C6D124011E5F15B0003C98EA /* Application Delegate */,
+				C6D124021E5F1A87003C98EA /* Controllers */,
+				C6D124051E5F1BCE003C98EA /* Storyboards */,
+				C6D124031E5F1AF0003C98EA /* Assets */,
+				C6D124041E5F1B53003C98EA /* Supporting Files */,
+			);
+			path = Thunderstorm;
+			sourceTree = "<group>";
+		};
+		C6D123F41E5F14CA003C98EA /* ThunderstormTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6D123F51E5F14CA003C98EA /* ThunderstormTests.swift */,
+				C6D123F71E5F14CA003C98EA /* Info.plist */,
+			);
+			path = ThunderstormTests;
+			sourceTree = "<group>";
+		};
+		C6D124011E5F15B0003C98EA /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C6D123E01E5F14CA003C98EA /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		C6D124021E5F1A87003C98EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6D123E21E5F14CA003C98EA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C6D124031E5F1AF0003C98EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C6D123E71E5F14CA003C98EA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C6D124041E5F1B53003C98EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6D123EC1E5F14CA003C98EA /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6D124051E5F1BCE003C98EA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C6D124061E5F1C00003C98EA /* Main.storyboard */,
+				C6D124081E5F1C28003C98EA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6D123DC1E5F14C9003C98EA /* Thunderstorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D123FA1E5F14CA003C98EA /* Build configuration list for PBXNativeTarget "Thunderstorm" */;
+			buildPhases = (
+				C6D123D91E5F14C9003C98EA /* Sources */,
+				C6D123DA1E5F14C9003C98EA /* Frameworks */,
+				C6D123DB1E5F14C9003C98EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thunderstorm;
+			productName = Thunderstorm;
+			productReference = C6D123DD1E5F14CA003C98EA /* Thunderstorm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6D123F01E5F14CA003C98EA /* ThunderstormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D123FD1E5F14CA003C98EA /* Build configuration list for PBXNativeTarget "ThunderstormTests" */;
+			buildPhases = (
+				C6D123ED1E5F14CA003C98EA /* Sources */,
+				C6D123EE1E5F14CA003C98EA /* Frameworks */,
+				C6D123EF1E5F14CA003C98EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D123F31E5F14CA003C98EA /* PBXTargetDependency */,
+			);
+			name = ThunderstormTests;
+			productName = ThunderstormTests;
+			productReference = C6D123F11E5F14CA003C98EA /* ThunderstormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6D123D51E5F14C9003C98EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dragoman Developers, LLC";
+				TargetAttributes = {
+					C6D123DC1E5F14C9003C98EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYW89PFS48;
+						ProvisioningStyle = Automatic;
+					};
+					C6D123F01E5F14CA003C98EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYW89PFS48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6D123DC1E5F14C9003C98EA;
+					};
+				};
+			};
+			buildConfigurationList = C6D123D81E5F14C9003C98EA /* Build configuration list for PBXProject "Thunderstorm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6D123D41E5F14C9003C98EA;
+			productRefGroup = C6D123DE1E5F14CA003C98EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6D123DC1E5F14C9003C98EA /* Thunderstorm */,
+				C6D123F01E5F14CA003C98EA /* ThunderstormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6D123DB1E5F14C9003C98EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D124091E5F1C28003C98EA /* LaunchScreen.storyboard in Resources */,
+				C6D123E81E5F14CA003C98EA /* Assets.xcassets in Resources */,
+				C6D124071E5F1C00003C98EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D123EF1E5F14CA003C98EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6D123D91E5F14C9003C98EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D123E31E5F14CA003C98EA /* ViewController.swift in Sources */,
+				C6D123E11E5F14CA003C98EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D123ED1E5F14CA003C98EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D123F61E5F14CA003C98EA /* ThunderstormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6D123F31E5F14CA003C98EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D123DC1E5F14C9003C98EA /* Thunderstorm */;
+			targetProxy = C6D123F21E5F14CA003C98EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6D123F81E5F14CA003C98EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6D123F91E5F14CA003C98EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6D123FB1E5F14CA003C98EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYW89PFS48;
+				INFOPLIST_FILE = "$(SRCROOT)/Thunderstorm/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragomandevelopers.Thunderstorm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C6D123FC1E5F14CA003C98EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYW89PFS48;
+				INFOPLIST_FILE = "$(SRCROOT)/Thunderstorm/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragomandevelopers.Thunderstorm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C6D123FE1E5F14CA003C98EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XYW89PFS48;
+				INFOPLIST_FILE = ThunderstormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragomandevelopers.ThunderstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderstorm.app/Thunderstorm";
+			};
+			name = Debug;
+		};
+		C6D123FF1E5F14CA003C98EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XYW89PFS48;
+				INFOPLIST_FILE = ThunderstormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragomandevelopers.ThunderstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderstorm.app/Thunderstorm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6D123D81E5F14C9003C98EA /* Build configuration list for PBXProject "Thunderstorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D123F81E5F14CA003C98EA /* Debug */,
+				C6D123F91E5F14CA003C98EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D123FA1E5F14CA003C98EA /* Build configuration list for PBXNativeTarget "Thunderstorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D123FB1E5F14CA003C98EA /* Debug */,
+				C6D123FC1E5F14CA003C98EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6D123FD1E5F14CA003C98EA /* Build configuration list for PBXNativeTarget "ThunderstormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D123FE1E5F14CA003C98EA /* Debug */,
+				C6D123FF1E5F14CA003C98EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6D123D51E5F14C9003C98EA /* Project object */;
+}
