@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C676C1481E60882B00C8C5D6 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C1471E60882B00C8C5D6 /* WeekViewController.swift */; };
+		C676C14A1E60884700C8C5D6 /* NowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C1491E60884700C8C5D6 /* NowViewController.swift */; };
+		C676C14C1E6088B300C8C5D6 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C14B1E6088B300C8C5D6 /* DayViewController.swift */; };
+		C676C14F1E608D4400C8C5D6 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C14E1E608D4400C8C5D6 /* DayCollectionViewCell.swift */; };
+		C676C1511E608D5400C8C5D6 /* NowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C1501E608D5400C8C5D6 /* NowCollectionViewCell.swift */; };
+		C676C1531E608D5F00C8C5D6 /* WeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C1521E608D5F00C8C5D6 /* WeekCollectionViewCell.swift */; };
 		C6D123E11E5F14CA003C98EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123E01E5F14CA003C98EA /* AppDelegate.swift */; };
 		C6D123E81E5F14CA003C98EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D123E71E5F14CA003C98EA /* Assets.xcassets */; };
 		C6D123F61E5F14CA003C98EA /* ThunderstormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123F51E5F14CA003C98EA /* ThunderstormTests.swift */; };
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C676C1471E60882B00C8C5D6 /* WeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		C676C1491E60884700C8C5D6 /* NowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowViewController.swift; sourceTree = "<group>"; };
+		C676C14B1E6088B300C8C5D6 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		C676C14E1E608D4400C8C5D6 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		C676C1501E608D5400C8C5D6 /* NowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowCollectionViewCell.swift; sourceTree = "<group>"; };
+		C676C1521E608D5F00C8C5D6 /* WeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCollectionViewCell.swift; sourceTree = "<group>"; };
 		C6D123DD1E5F14CA003C98EA /* Thunderstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D123E01E5F14CA003C98EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D123E71E5F14CA003C98EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +68,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C676C1441E6083B300C8C5D6 /* Day View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C676C14B1E6088B300C8C5D6 /* DayViewController.swift */,
+			);
+			path = "Day View Controller";
+			sourceTree = "<group>";
+		};
+		C676C1451E6083C100C8C5D6 /* Now View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C676C1491E60884700C8C5D6 /* NowViewController.swift */,
+			);
+			path = "Now View Controller";
+			sourceTree = "<group>";
+		};
+		C676C1461E6083CC00C8C5D6 /* Week View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C676C1471E60882B00C8C5D6 /* WeekViewController.swift */,
+			);
+			path = "Week View Controller";
+			sourceTree = "<group>";
+		};
+		C676C14D1E608B1A00C8C5D6 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C676C14E1E608D4400C8C5D6 /* DayCollectionViewCell.swift */,
+				C676C1501E608D5400C8C5D6 /* NowCollectionViewCell.swift */,
+				C676C1521E608D5F00C8C5D6 /* WeekCollectionViewCell.swift */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
 		C6D123D41E5F14C9003C98EA = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +152,9 @@
 		C6D124021E5F1A87003C98EA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C676C1461E6083CC00C8C5D6 /* Week View Controller */,
+				C676C1451E6083C100C8C5D6 /* Now View Controller */,
+				C676C1441E6083B300C8C5D6 /* Day View Controller */,
 				C6D1240A1E5F25F8003C98EA /* Root View Controller */,
 			);
 			path = Controllers;
@@ -139,6 +188,7 @@
 		C6D1240A1E5F25F8003C98EA /* Root View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C676C14D1E608B1A00C8C5D6 /* Collection View Cells */,
 				C6D1240B1E5F265C003C98EA /* RootViewController.swift */,
 			);
 			path = "Root View Controller";
@@ -249,7 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C676C1481E60882B00C8C5D6 /* WeekViewController.swift in Sources */,
+				C676C14F1E608D4400C8C5D6 /* DayCollectionViewCell.swift in Sources */,
+				C676C1531E608D5F00C8C5D6 /* WeekCollectionViewCell.swift in Sources */,
+				C676C14C1E6088B300C8C5D6 /* DayViewController.swift in Sources */,
+				C676C14A1E60884700C8C5D6 /* NowViewController.swift in Sources */,
 				C6D1240C1E5F265C003C98EA /* RootViewController.swift in Sources */,
+				C676C1511E608D5400C8C5D6 /* NowCollectionViewCell.swift in Sources */,
 				C6D123E11E5F14CA003C98EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +497,7 @@
 				C6D123FC1E5F14CA003C98EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6D123FD1E5F14CA003C98EA /* Build configuration list for PBXNativeTarget "ThunderstormTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +506,7 @@
 				C6D123FF1E5F14CA003C98EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
