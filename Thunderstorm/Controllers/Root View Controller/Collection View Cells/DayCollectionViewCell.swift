@@ -35,6 +35,19 @@ class DayCollectionViewCell: UICollectionViewCell {
     
     private func setupViewController() {
         
+        viewController.view.backgroundColor = .blue
+        contentView.addSubview(viewController.view)
+        
+        if let view = viewController.view {
+            view.translatesAutoresizingMaskIntoConstraints = false
+            
+            view.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 0.0).isActive = true
+            view.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: 0.0).isActive = true
+            view.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 0.0).isActive = true
+            view.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0.0).isActive = true
+            
+        }
+        
     }
     
 }
