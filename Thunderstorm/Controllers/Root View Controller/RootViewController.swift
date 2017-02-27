@@ -22,13 +22,32 @@ class RootViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     @IBOutlet var collectionView : UICollectionView!
     
+    var aspectRatio: CGFloat {
+        switch traitCollection.horizontalSizeClass {
+        case .compact:
+            return 1.0
+            
+        default:
+            return 1.0 / 3.0
+        }
+    }
+    
+    let minimumInteritemSpacingForSection : CGFloat = 0.0
+    let minimumLineSpacingForSection : CGFloat = 0.0
+    let insetForSection = UIEdgeInsets()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
         
         // Do any additional setup after loading the view.
     }
-
+    
+    // MARK: - Content Container Methods
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        collectionView.collectionViewLayout.invalidateLayout()
+    }
     // MARK: - Collection View Data Source Methods
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -49,6 +68,26 @@ class RootViewController: UIViewController, UICollectionViewDataSource, UICollec
             return collectionView.dequeueReusableCell(withReuseIdentifier: WeekCollectionViewCell.ReuseIdentifer, for: indexPath as IndexPath)
         }
         
+    }
+    
+    // MARK: - Collection View Flow Layout Methods
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let bounds = collectionView.bounds
+        
+        return CGSize(width: (bounds.width * aspectRatio), height: bounds.height)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return minimumInteritemSpacingForSection
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return minimumLineSpacingForSection
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return insetForSection
     }
 
     // MARK: - View Methods
