@@ -13,6 +13,8 @@
 		C676C14F1E608D4400C8C5D6 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C14E1E608D4400C8C5D6 /* DayCollectionViewCell.swift */; };
 		C676C1511E608D5400C8C5D6 /* NowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C1501E608D5400C8C5D6 /* NowCollectionViewCell.swift */; };
 		C676C1531E608D5F00C8C5D6 /* WeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676C1521E608D5F00C8C5D6 /* WeekCollectionViewCell.swift */; };
+		C6A065371E685070006B52CC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A065361E685070006B52CC /* Configuration.swift */; };
+		C6A0653C1E6851B8006B52CC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0653B1E6851B8006B52CC /* DataManager.swift */; };
 		C6D123E11E5F14CA003C98EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123E01E5F14CA003C98EA /* AppDelegate.swift */; };
 		C6D123E81E5F14CA003C98EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D123E71E5F14CA003C98EA /* Assets.xcassets */; };
 		C6D123F61E5F14CA003C98EA /* ThunderstormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D123F51E5F14CA003C98EA /* ThunderstormTests.swift */; };
@@ -38,6 +40,8 @@
 		C676C14E1E608D4400C8C5D6 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
 		C676C1501E608D5400C8C5D6 /* NowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowCollectionViewCell.swift; sourceTree = "<group>"; };
 		C676C1521E608D5F00C8C5D6 /* WeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6A065361E685070006B52CC /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		C6A0653B1E6851B8006B52CC /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		C6D123DD1E5F14CA003C98EA /* Thunderstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D123E01E5F14CA003C98EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D123E71E5F14CA003C98EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +106,22 @@
 			path = "Collection View Cells";
 			sourceTree = "<group>";
 		};
+		C6A065351E68500B006B52CC /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				C6A065361E685070006B52CC /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C6A065381E685178006B52CC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0653B1E6851B8006B52CC /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		C6D123D41E5F14C9003C98EA = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				C6D124011E5F15B0003C98EA /* Application Delegate */,
+				C6A065351E68500B006B52CC /* Configuration */,
 				C6D124021E5F1A87003C98EA /* Controllers */,
+				C6A065381E685178006B52CC /* Managers */,
 				C6D124051E5F1BCE003C98EA /* Storyboards */,
 				C6D124031E5F1AF0003C98EA /* Assets */,
 				C6D124041E5F1B53003C98EA /* Supporting Files */,
@@ -300,8 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C676C1481E60882B00C8C5D6 /* WeekViewController.swift in Sources */,
+				C6A0653C1E6851B8006B52CC /* DataManager.swift in Sources */,
 				C676C14F1E608D4400C8C5D6 /* DayCollectionViewCell.swift in Sources */,
 				C676C1531E608D5F00C8C5D6 /* WeekCollectionViewCell.swift in Sources */,
+				C6A065371E685070006B52CC /* Configuration.swift in Sources */,
 				C676C14C1E6088B300C8C5D6 /* DayViewController.swift in Sources */,
 				C676C14A1E60884700C8C5D6 /* NowViewController.swift in Sources */,
 				C6D1240C1E5F265C003C98EA /* RootViewController.swift in Sources */,
